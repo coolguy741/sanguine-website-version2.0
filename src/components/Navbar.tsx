@@ -5,29 +5,13 @@ function Navbar() {
   return (
     <>
       <nav>
+        {/* <img src="src/SANGUINE LOGO WHITE.svg" alt="" class="logo" />
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/work">Work</Link>
-          </li>
-          <li>
-            <Link to="/work/pornbrain">porn brain</Link>
-          </li>
-          <li>
-            <Link to="/work/SpotLeukaemia">Spot Leukaemia</Link>
-          </li>
-          <li>
-            <Link to="/work/futureofsurgery">future of surgery</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/services">Services</Link>
-          </li>
-        </ul>
+          <li><a style="font-weight: bold" href="#">HOME</a></li>
+          <li><a href="Work/work.html">WORK</a></li>
+          <li><a href="Pages/Team.html">ABOUT</a></li>
+          <li><a href="Pages/about.html">SERVICES</a></li>
+        </ul> */}
       </nav>
     </>
   );

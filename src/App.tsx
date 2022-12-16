@@ -13,7 +13,6 @@ import SpotLeukaemia from './pages/SpotLeukaemia';
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
       <Routes>
         <Route path='/' element = {<Layout />}>
           <Route index element = {<Home/>} />
