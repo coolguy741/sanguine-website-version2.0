@@ -3,17 +3,18 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <>
+    <div className='z-50'>
       <nav>
-        {/* <img src="src/SANGUINE LOGO WHITE.svg" alt="" class="logo" />
+        <img className="" src='SANGUINE_LOGO_WHITE.svg' alt="logo"/>
         <ul>
-          <li><a style="font-weight: bold" href="#">HOME</a></li>
-          <li><a href="Work/work.html">WORK</a></li>
-          <li><a href="Pages/Team.html">ABOUT</a></li>
-          <li><a href="Pages/about.html">SERVICES</a></li>
-        </ul> */}
+          <li><Link to="/">HOME</Link></li>
+          <li><Link to="/work">WORK</Link></li>
+          <li><Link to="/about">ABOUT</Link></li>
+          <li><Link to="/services">SERVICES</Link></li>
+        </ul>
       </nav>
-    </>
+
+    </div>
   );
 }
 
