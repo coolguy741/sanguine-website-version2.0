@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Work from './pages/Work'; 
 import About from './pages/About';
 import Services from './pages/Services';
-import PornBrain from './pages/Services';
+import PornBrain from './pages/PornBrain';
 import FutureOfSurgery from './pages/FutureOfSurgery';
 import SpotLeukaemia from './pages/SpotLeukaemia';
 
