@@ -12,7 +12,7 @@ import SpotLeukaemia from './pages/SpotLeukaemia';
 
 function App() {
   return (
-    <div className='h-screen'>
+    <div className='font'>
       <Routes>
         <Route path='/' element = {<Layout />}>
           <Route index element = {<Home/>} />
