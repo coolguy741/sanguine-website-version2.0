@@ -3,7 +3,9 @@ import React from 'react';
 function Work() {
   return (
     <>
-        <div>Work page</div>
+        <div className='flex-row sm: flex-col'>
+          
+        </div>
     </>
   );
 }
