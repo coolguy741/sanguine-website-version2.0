@@ -2,8 +2,10 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className='fixed top-0 left-0 w-screen h-screen bg-blue-500'>
-        <div className=''>Home page</div>
+    <div className='w-full h-full'>
+      <video className='min-w-[100vw] min-h-[100vh] object-cover' autoPlay muted plays-inline loop poster="/video/poster/Home.JPG">
+        <source src = "/video/Home.mov" type = "video/mp4"/>
+      </video>
     </div>
   );
 }

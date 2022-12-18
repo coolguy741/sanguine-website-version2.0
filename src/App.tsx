@@ -12,7 +12,7 @@ import SpotLeukaemia from './pages/SpotLeukaemia';
 
 function App() {
   return (
-    <div>
+    <div className='h-screen'>
       <Routes>
         <Route path='/' element = {<Layout />}>
           <Route index element = {<Home/>} />
@@ -32,8 +32,9 @@ function Layout(){
   return (
     <>
       <Navbar/>
-      <hr/>
-      <Outlet />
+      <div className='top-0 left-0 -z-10'>
+        <Outlet />
+      </div>
     </>
   );
 }
