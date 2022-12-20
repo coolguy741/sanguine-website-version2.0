@@ -1,6 +1,5 @@
 import React from 'react';
 import { Routes, Route, Outlet } from 'react-router-dom';
-import logo from './logo.svg';
 import Navbar from './components/Navbar';
 import Home from './pages/Home'; 
 import Work from './pages/Work'; 
