@@ -4,17 +4,17 @@ import Video from '../components/Video';
 function About() {
   return (
     <>
-      <div className="w-full max-h-[70vh] overflow-hidden">
+      <div className="w-full max-h-[75vh] overflow-hidden">
         <Video src="/video/About.mov" poster="/video/poster/About.JPG"/>
       </div>
-      <div className='md:flex p-7 flex-column'>
+      <div className='md:flex p-4 flex-column'>
         <h4 className='md:basis-1/2 font-medium sm:text-4xl text-2xl pb-4 px-2'>
         Sanguine is a London-based<br/>
         full-service healthcare advertising<br/>
         agency.
         </h4>
         <div className='md: basis-1/2 px-2'>
-          <p className='pb-4 pt-1'>
+          <p className='pb-1'>
             Sanguine was established to draw attention to the meaningful and revolutionary work of healthcare organisations around the world. We believe the organisations and individuals truly deserving of humanity’s attention are those committed to helping it.
           </p>
           <p>

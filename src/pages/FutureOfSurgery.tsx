@@ -4,10 +4,10 @@ import Video from '../components/Video';
 function FutureOfSurgery() {
   return (
     <>
-      <div className="w-full max-h-[70vh] overflow-hidden">
+      <div className="w-full max-h-[75vh] overflow-hidden">
         <Video src="/video/FUTUREOFSURGERY.mov" poster="/video/poster/FUTUREOFSURGERY.JPG"/>
       </div>
-      <div className='md:flex p-7 flex-column'>
+      <div className='md:flex p-4 flex-column'>
         <div className='md:basis-1/2 pb-4 px-2'>
           <h4 className='font-medium sm:text-4xl text-2xl '>
             The Future of Surgery
