@@ -10,11 +10,11 @@ function Services() {
             world-leading healthcare organisations.
           </h6>
           <div className="flex flex-wrap justify-center align-middle mt-[30px]">
-            <img className="md:h-[13vh] h-[100px] mx-2 my-4" src="/image/organizations/roche.png"/>
-            <img className="md:h-[13vh] h-[100px] mx-2 my-4" src="/image/organizations/gsk.png"/>
-            <img className="md:h-[13vh] h-[100px] mx-2 my-4" src="/image/organizations/ucb.png"/>
-            <img className="md:h-[13vh] h-[100px] mx-2 my-4" src="/image/organizations/galderma.png"/>
-            <img className="md:h-[13vh] h-[100px] mx-2 my-4" src="/image/organizations/alcon.png"/>
+            <img className="md:h-[13vh] h-[100px] mx-2 my-4 animate-waving-hand" src="/image/organizations/roche.png"/>
+            <img className="md:h-[13vh] h-[100px] mx-2 my-4 animate-waving-hand" src="/image/organizations/gsk.png"/>
+            <img className="md:h-[13vh] h-[100px] mx-2 my-4 animate-waving-hand" src="/image/organizations/ucb.png"/>
+            <img className="md:h-[13vh] h-[100px] mx-2 my-4 animate-waving-hand" src="/image/organizations/galderma.png"/>
+            <img className="md:h-[13vh] h-[100px] mx-2 my-4 animate-waving-hand" src="/image/organizations/alcon.png"/>
           </div>
         </div>
       </div>
