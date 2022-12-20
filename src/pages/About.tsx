@@ -8,7 +8,7 @@ function About() {
         <Video src="/video/About.mov" poster="/video/poster/About.JPG"/>
       </div>
       <div className='md:flex p-7 flex-column'>
-        <h4 className='md:basis-1/2 text-lg font-medium md:text-4xl pb-4 px-2'>
+        <h4 className='md:basis-1/2 font-medium sm:text-4xl text-2xl pb-4 px-2'>
         Sanguine is a London-based<br/>
         full-service healthcare advertising<br/>
         agency.

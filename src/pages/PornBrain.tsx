@@ -9,7 +9,7 @@ function PornBrain() {
       </div>
       <div className='md:flex p-7 flex-column'>
         <div className='md:basis-1/2 pb-4 px-2'>
-          <h4 className='text-lg font-medium md:text-4xl'>
+          <h4 className='font-medium sm:text-4xl text-2xl'>
             The Porn Brain
           </h4>
           <p className='pt-4'>
