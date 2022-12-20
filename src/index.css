@@ -18,8 +18,23 @@
     }
   }
 
-  @layer base {
-    html {
-      font-family:  "Roboto-light", sans-serif;
-    }
+@layer base {
+  html {
+    font-family:  "Roboto-light", sans-serif;
   }
+}
+
+@layer components {
+  .panel {
+    @apply sm:flex w-full p-0;
+  }
+  .desc-item {
+    @apply  px-1 pb-3 text-sm basis-full  leading-[16px] flex-auto;
+  }
+  .desc-item-heading {
+    @apply pb-1;
+  }
+  .desc-item-content {
+    @apply sm:max-w-[320px];
+  }
+}
