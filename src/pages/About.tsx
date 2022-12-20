@@ -4,10 +4,10 @@ import Video from '../components/Video';
 function About() {
   return (
     <>
-      <div className="w-full max-h-[75vh] overflow-hidden">
+      <div className="w-full max-h-[75vh] overflow-hidden flex">
         <Video src="/video/About.mov" poster="/video/poster/About.JPG"/>
       </div>
-      <div className='md:flex p-4 flex-column'>
+      <div className='md:flex p-7 flex-column'>
         <h4 className='md:basis-1/2 font-medium sm:text-4xl text-2xl pb-4 px-2'>
         Sanguine is a London-based<br/>
         full-service healthcare advertising<br/>

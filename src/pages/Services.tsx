@@ -18,7 +18,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="md:flex p-4 flex-column">
+      <div className="md:flex p-7 flex-column">
         <div className="md:basis-1/2 pb-4 px-2">
           <h4 className="font-medium sm:text-4xl text-2xl">Let's work together</h4>
           <p className="pt-4">
