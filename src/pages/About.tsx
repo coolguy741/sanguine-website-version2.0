@@ -9,8 +9,8 @@ function About() {
       </div>
       <div className='md:flex p-7 flex-column'>
         <h4 className='md:basis-1/2 font-medium sm:text-4xl text-2xl pb-4 px-2'>
-        Sanguine is a London-based<br/>
-        full-service healthcare advertising<br/>
+        Sanguine is a London-based
+        full-service healthcare advertising
         agency.
         </h4>
         <div className='md: basis-1/2 px-2'>
